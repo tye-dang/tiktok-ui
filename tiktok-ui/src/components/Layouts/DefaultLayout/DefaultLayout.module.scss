@@ -2,16 +2,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
 }
 
 .container {
-    width: 100%;
-    min-height: 1000px;
-    background-color: pink;
+    width: var(--default-layout-width);
     display: flex;
 }
 .content {
-    margin-top: 101px;
-    width: 100%;
+    flex: 1;
 }
